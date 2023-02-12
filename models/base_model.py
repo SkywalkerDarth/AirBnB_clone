@@ -39,7 +39,7 @@ class BaseModel:
         self.updated_at = datetime.now()
         storage.save()
 
-        def to_dict(self):
+    def to_dict(self):
         """creates a new dictionary, adding a key and returning
         datemtimes converted to strings
         """
